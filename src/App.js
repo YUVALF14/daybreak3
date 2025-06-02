@@ -65,6 +65,9 @@ function sendFeedbackRequests() {
 function setSnackbar() {
   // פונקציה ריקה – לא עושה כלום
 }
+const [openRegistrationDialog, setOpenRegistrationDialog] = useState(false);
+const [registrationData, setRegistrationData] = useState({ name: '', phone: '', legal: false });
+const [registrationEvent, setRegistrationEvent] = useState(null);
 // Create rtl cache with specific configuration
 const cacheRtl = createCache({
   key: 'muirtl',
