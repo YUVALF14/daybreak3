@@ -1,3 +1,15 @@
+// תיקון זמני לפונקציות חסרות
+function sendEventReminders() {
+  // פונקציה ריקה – לא עושה כלום
+}
+
+function sendFeedbackRequests() {
+  // פונקציה ריקה – לא עושה כלום
+}
+
+function setSnackbar() {
+  // פונקציה ריקה – לא עושה כלום
+}
 import React, { useState, useEffect } from 'react';
 import { ThemeProvider, createTheme, styled } from '@mui/material/styles';
 import { CacheProvider } from '@emotion/react';
