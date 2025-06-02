@@ -16,6 +16,10 @@ import {
   Checkbox
 } from '@mui/material';
 
+const [openRegistrationDialog, setOpenRegistrationDialog] = useState(false);
+const [registrationData, setRegistrationData] = useState({ name: '', phone: '', legal: false });
+const [registrationEvent, setRegistrationEvent] = useState(null);
+const [snackbar, setSnackbar] = useState({ open: false, message: '', severity: 'success' }); 
 function ParticipantDialog({ open, onClose, event, onParticipantUpdate }) {
   const [newParticipant, setNewParticipant] = useState({
     name: '',
