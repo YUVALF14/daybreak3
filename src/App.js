@@ -1,15 +1,3 @@
-// תיקון זמני לפונקציות חסרות
-function sendEventReminders() {
-  // פונקציה ריקה – לא עושה כלום
-}
-
-function sendFeedbackRequests() {
-  // פונקציה ריקה – לא עושה כלום
-}
-
-function setSnackbar() {
-  // פונקציה ריקה – לא עושה כלום
-}
 import React, { useState, useEffect } from 'react';
 import { ThemeProvider, createTheme, styled } from '@mui/material/styles';
 import { CacheProvider } from '@emotion/react';
@@ -65,6 +53,18 @@ import {
 } from '@mui/icons-material';
 import './App.css';
 
+// תיקון זמני לפונקציות חסרות
+function sendEventReminders() {
+  // פונקציה ריקה – לא עושה כלום
+}
+
+function sendFeedbackRequests() {
+  // פונקציה ריקה – לא עושה כלום
+}
+
+function setSnackbar() {
+  // פונקציה ריקה – לא עושה כלום
+}
 // Create rtl cache with specific configuration
 const cacheRtl = createCache({
   key: 'muirtl',
